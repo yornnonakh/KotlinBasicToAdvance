@@ -1,4 +1,4 @@
-package util
+package app.feature.modules.util
 
 class DateFormatUtil {
     val name = "DateFormatUtil"
