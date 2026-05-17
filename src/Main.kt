@@ -1,3 +1,4 @@
+import app.feature.modules.payment.PaymentInfo
 import app.feature.modules.payment.PaymentMethod
 import app.feature.modules.services.DateFormatService
 import app.feature.modules.services.Services
@@ -8,6 +9,7 @@ import app.feature.modules.util.DateFormatUtil
     import for bring any class, function , object to using in main
     function.
  */
+
 fun main(){
     // How to call the class
     // create object
@@ -21,10 +23,16 @@ fun main(){
         'M'
     )
     val paymentMethod = PaymentMethod()
-
+    val paymentInfo = PaymentInfo(
+        "Nona",
+        21,
+        'M',
+        5334
+    )
     // calling the objects
     dateFormatUtil.showedAllTheDateFormatUtil()
     dateFormatService.showedAllTheDateFormatService()
     services.showedTheInfoOfServices()
     paymentMethod.showedAllThePaymentMethod()
+    paymentInfo.showedThePaymentInfo()
 }
