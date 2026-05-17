@@ -4,12 +4,13 @@ import app.feature.modules.services.DateFormatService
 import app.feature.modules.services.Services
 import app.feature.modules.util.DateFormatUtil
 
-/*
-    How to import package in kotlin programing languages
-    import for bring any class, function , object to using in main
-    function.
- */
+     /*
+        How to import package in kotlin programing languages
+        import for bring any class, function , object to using in main
+        function.
+     */
 
+    // the main entry point in kotlin is main function
 fun main(){
     // How to call the class
     // create object
