@@ -1,15 +1,10 @@
-import feature.auth.Employees
-
-// How import packages
+import util.DateFormatUtil
 
 fun main(){
+    // How to call the class
     // create object
-    val employees = Employees(
-        "Nona",
-        21,
-        'M',
-        5334
-    )
-    // call the function
-    employees.showedTheInfoOfEmployees()
+    val dateFormatUtil = DateFormatUtil()
+
+    // calling the method
+    dateFormatUtil.showedAllTheDateFormatUtil()
 }
